@@ -19,12 +19,22 @@ public class TeamClass {
 
     //method to get team name
     public String getTeamName(){
-        return teamName;
+        return this.teamName;
     }
 
     //method to get list of players
     public ArrayList getPlayers(){
         return players;
+    }
+
+    //increments team points
+    public void addTeamPoints(int points){
+        teamPoints += points;
+    }
+
+    //adds player to player list.
+    public void addTeamPlayer(String player){
+        players.add(player);
     }
 
 }
