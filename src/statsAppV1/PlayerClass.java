@@ -44,5 +44,27 @@ public class PlayerClass {
         return playerTeam;
     }
 
+    //methods to increase player stats
 
+    public void addAssists(){
+        assists++;
+    }
+
+    public void addTwoPoints(){
+        twoPoints++;
+        points += 2;
+    }
+
+    public void addThreePoints(){
+        threePoints++;
+        points += 3;
+    }
+
+    public void addBlocks(){
+        blocks++;
+    }
+
+    public void addSteals(){
+        steals++;
+    }
 }
