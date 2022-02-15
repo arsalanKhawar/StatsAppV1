@@ -12,5 +12,19 @@ public class TeamClass {
         this.teamName = teamName;
     }
 
+    //method to get team points
+    public int getTeamPoints(){
+        return teamPoints;
+    }
+
+    //method to get team name
+    public String getTeamName(){
+        return teamName;
+    }
+
+    //method to get list of players
+    public ArrayList getPlayers(){
+        return players;
+    }
 
 }
