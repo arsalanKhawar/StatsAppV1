@@ -50,7 +50,7 @@ public class PlayerClass {
 
     //methods to increase player stats
 
-    public void addAssists(){
+    public void addAssist(){
         assists++;
     }
 
@@ -64,15 +64,15 @@ public class PlayerClass {
         points += 3;
     }
 
-    public void addBlocks(){
+    public void addBlock(){
         blocks++;
     }
 
-    public void addSteals(){
+    public void addSteal(){
         steals++;
     }
 
-    public void addRebounds(){
+    public void addRebound(){
         rebounds++;
     }
 }
