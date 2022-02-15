@@ -35,4 +35,14 @@ public class PlayerClass {
         return steals;
     }
 
+    //methods to get player name and team
+    public String getPlayerName(){
+        return playerName;
+    }
+
+    public String getPlayerTeam(){
+        return playerTeam;
+    }
+
+
 }
