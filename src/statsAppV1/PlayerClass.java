@@ -2,7 +2,7 @@ package statsAppV1;
 
 public class PlayerClass {
 
-    private int points, assists, twoPoints, threePoints, blocks, steals = 0;
+    private int points, assists, twoPoints, threePoints, blocks, steals, rebounds = 0;
     private String playerName, playerTeam;
 
     public PlayerClass(String playerName, String playerTeam) {
@@ -33,6 +33,10 @@ public class PlayerClass {
 
     public int getSteals(){
         return steals;
+    }
+
+    public int getRebounds(){
+        return rebounds;
     }
 
     //methods to get player name and team
@@ -66,5 +70,9 @@ public class PlayerClass {
 
     public void addSteals(){
         steals++;
+    }
+
+    public void addRebounds(){
+        rebounds++;
     }
 }
